@@ -1,4 +1,7 @@
 body{
-    font-family: papyrus;
-    background-color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(23, 207, 32);
+    color: white;
+    font-size: 40px;
+    margin: 20px;   
 }
