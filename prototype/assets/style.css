@@ -1,7 +1,12 @@
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgb(23, 207, 32);
-    color: white;
+    color: rgb(235, 235, 235);
     font-size: 40px;
     margin: 20px;   
+}
+table{
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    width: 100%;
 }
