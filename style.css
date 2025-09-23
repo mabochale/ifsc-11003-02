@@ -1,17 +1,17 @@
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(237, 49, 49);
     color: rgb(235, 235, 235);
     font-size: 40px;
     margin: 20px;   
 }
 table{
-    border: 2px solid rgb(228, 12, 12);
+    border: 2px solid rgb(12, 228, 73);
     border-collapse: collapse;
     width: 100%;
 }
 td{
-    border: 2px solid rgb(228, 12, 12);
+    border: 2px solid rgb(255, 255, 255);
     padding: 15px;
     text-align: center;
     font-size: 30px;
