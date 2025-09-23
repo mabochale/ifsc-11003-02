@@ -1,0 +1,24 @@
+/* CSS Document */
+body{
+    background-color: rgb(237, 49, 49);
+    color: rgb(235, 235, 235);
+    font-size: 40px;
+    margin: 20px;   
+}
+table{
+    border: 2px solid rgb(18, 248, 83);
+    width: 100%;
+}
+td{
+    border: 2px solid rgb(61, 217, 30);
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+th{
+    border: 2px solid rgb(235, 235, 235);
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(12, 228, 73);
+}
