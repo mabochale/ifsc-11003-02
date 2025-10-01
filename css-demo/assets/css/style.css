@@ -1,8 +1,24 @@
 /* CSS Demo Stylesheet */
-body{
-    background-color: #000000;
-    color: rgb(255, 0, 0);
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 20px;
+header.primary{
+    background-color: #f51111;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 20px 40px 20px 40px;
+    font-family:'Courier New', Courier, monospace, sans-serif;
+}
+header.primary h1{
+    font-weight: italic;
+    font-size: 50px;
+    margin: 0;
+}
+
+body {
+    background-color: #D9A273;
+    accent-color: #000000;
+    margin:0;
+}
+header.primary h1 a{
+    color: ffaaaa;
+    
 }
