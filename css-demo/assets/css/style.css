@@ -1,32 +1,128 @@
 /* CSS Demo Stylesheet */
 header.primary{
-    background-color: #f51111;
-    color: #FFFFFF;
+    background-color: #5c2f2f;
+    color: #dd0606;
     text-align: center;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #cd6464;
     padding: 20px 40px 20px 40px;
-    font-family:'Courier New', Courier, monospace, sans-serif;
+    font-family:'arial', Courier, monospace, sans-serif;
 }
-header.primary h1{
-    font-weight: italic;
-    font-size: 50px;
+#content time.post-date, figcaption{
+    text-align: center;
+    font-family: 'arial', Courier, monospace, sans-serif;   
+    font-weight: bolder;
+    font-size: 15px;
     margin: 0;
-}
+}   
 body {
-    background-color: #D9A273;
-    accent-color: #000000;
+    background-color: lab(100% 0.01 -0.01);
+    accent-color: #ffffff;
     margin:0;
 }
 header.primary nav ul{
+    list-style-type: none;
    flex-direction: row;
    padding: 0;
    justify-content: space-around;
    display: flex;
 }
 header.primary nav ul a{
-   flex-direction: row;
-   padding: 0;
-   justify-content: space-around;
-   display: flex;
-   border-radius: 20px 10px;
+  color: #FFFFFF;
+  background-color: rgba(0,0,0,.4);
+text-decoration: none;
+font-size: 20px;
+padding: 5px 7.5px;
+border-radius: 20px;
+}
+header.primary nav a:hover{
+    background-color: rgba(255, 32, 32, 0.12);
+}
+#intro h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'arial', Courier, monospace, sans-serif;
+   color: rgb(246, 0, 0);
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+aside .container a{
+    color: #cf3d3d;
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+
+}
+
+aside .widget footer{
+    display: none;
+}
+
+#content .post {
+    box-shadow: #0a0808 5px 5px 5px;
+    padding: 10px;
+    font-size: 7px;
+}
+#content .post figure{
+    margin: 0;
+}
+
+/* responsive image */
+img{
+    max-width: 100%;
+    height: auto;
+}
+#content a{
+    color: rgb(246, 0, 0);
+}
+#content a:hover{
+    text-decoration: none;
+}
+aside [role="complementary"]{
+    background: rgb(255, 0, 0);
+    box-shadow: #000000 5px 5px 5px;
+    padding: 10px;
+    font-size: 20px;
+    max-width: 300px;
+    width: 20vw;
+    height: fit-content;
+}
+aside .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+gap: 10px;
+}
+
+#colophon{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'arial', Courier, monospace, sans-serif;
+}
+/* Table Styles */  
+/* Utility Classes */
+.container{
+    background: rgb(255, 255, 255);
+    max-width: 980px;
+    width: 80vw;
+    margin: 20px auto;
+}
+/* Media Queries */
+@media screen and (max-width: 600px){
+
+header.primary nav ul{  
+   flex-direction: column;
+  gap: 20px;
+}
+header.primary nav ul a{
+  display: block;
+}
 }
