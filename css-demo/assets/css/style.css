@@ -1,9 +1,9 @@
 /* CSS Demo Stylesheet */
 header.primary{
-    background-color: #ffffff;
-    color: #dd0606;
+    background-color: #5a4194;
+    color: #fe0808;
     text-align: center;
-    text-shadow: 2px 2px 4px #cd6464;
+    text-shadow: 2px 2px 4px #a49a9a;
     padding: 20px 40px 20px 40px;
     font-family:'arial', Courier, monospace, sans-serif;
 }
@@ -16,13 +16,16 @@ header.primary{
 }   
 body {
     background-color: rgba(217, 162, 115);
-    accent-color: #ff2626;
-    margin:0;
+    accent-color: #000000;
+    margin: 0;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif Courier, monospace, sans-serif;       
 }
 header.primary nav ul{
     list-style-type: none;
    flex-direction: row;
    padding: 0;
+    gap: 20px;
+    padding-left: 20;
    justify-content: space-around;
    display: flex;
 }
@@ -35,43 +38,70 @@ padding: 5px 7.5px;
 border-radius: 20px;
 }
 header.primary nav a:hover{
-    background-color: rgba(255, 32, 32, 0.12);
+    background-color: rgba(210, 67, 67, 0.12);
+
 }
 #intro h2{
     text-align: center;
     font-size: 30px;
     font-family: 'arial', Courier, monospace, sans-serif;
-   color: rgb(246, 0, 0);
+   color: rgb(227, 227, 227);
+ 
 }
-
+#intro p{
+    color: rgb(0, 74, 211);
+    font-size: 20px;
+    padding: 10px;  
+}
 #content{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
-    background: rgb(217, 143, 78);
-    margin-bottom: 10px;
+    gap: 22px;
+    max-width: 980px;
+    width: 80vw;
+    margin: 20px auto;
 }
 aside .container a{
-    color: #534242;
+    color: #f8f1fa;
     display: block;
     text-align: right;
     margin-top: 20px;
-
+}
+aside .container a:hover{
+    text-decoration: none;
 }
 
 aside .widget footer{
-    display: none;
+    display: flex;
+    flex-direction: row;  
 }
 
 #content .post {
-    box-shadow: #0a0808 5px 5px 5px 5px;
+    box-shadow: #ff3131 5px 5px 5px 5px;
     padding: 10px;
     font-size: 7px;
 }
 #content .post figure{
-    margin: 0;
+    margin: 10px;
+    padding: 1px;
 }
+#content .post p{
+    font-size: 15px;
+    line-height: 110%;
+    text-align: justify;
+    font-family: 'arial', Courier, monospace, sans-serif;
+}
+#content .post p{
+    font-size: 200%;
+    color: rgb(41, 17, 228);
+}
+#content .post h2{
+    text-align: center;
+    font-size: 10px;
+    font-family: 'arial', Courier, monospace, sans-serif;
+   color: rgb(0, 0, 0);
+}   
 
 /* responsive image */
 img{
@@ -79,7 +109,7 @@ img{
     height: auto;
 }
 #content a{
-    color: rgb(246, 0, 0);
+    color: rgb(244, 244, 244);
 }
 #content a:hover{
     text-decoration: none;
@@ -88,12 +118,12 @@ img{
     text-align: center;
     font-size: 15px;
     font-family: 'arial', Courier, monospace, sans-serif;
-    border-left: 7px solid rgb(246, 0, 0);
+    border-left: 7px solid rgb(47, 3, 241);
     padding-left: 10px;
 }
 
 aside [role="complementary"]{
-    background: rgb(255, 0, 0);
+    background: rgb(249, 91, 91);
     box-shadow: #000000 5px 5px 5px;
     padding: 10px;
     font-size: 20px;
@@ -101,7 +131,11 @@ aside [role="complementary"]{
     width: 20vw;
     height: fit-content;
 }
+.container{
+    background: none
+}
 aside .container{
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -111,23 +145,23 @@ aside .container{
     text-decoration: none;
 }
 #practice a{
-    color: rgb(246, 0, 0);  
+    color: rgb(6, 5, 5);  
+    text-decoration: none;
+    text-align: center;
 }
 #practice{
     background: rgb(255, 255, 255);
-    box-shadow: #000000 5px 5px 5px;
     padding: 10px;
     font-size: 20px;
     max-width: 980px;
     width: 80vw;
-    margin: 20px auto;
     line-height: 110%;
 }
 #practice h2{
     text-align: center;
     font-size: 30px;
     font-family: 'arial', Courier, monospace, sans-serif;
-   color: rgb(246, 0, 0);
+   color: rgb(210, 37, 37);
 }
 #colophon{
     text-align: center;
@@ -152,18 +186,18 @@ aside .container{
 #practice th{
     padding: 20px;
     color: rgb(251, 251, 251);
-    background-color:brown;
+    background-color:rgb(163, 19, 215);
 }
 #practice td{
-    border: 1px solid rgb(255, 0, 0);
+    border: 1px solid rgb(60, 255, 0);
     padding: 5px;
     text-align: center;
 }
 #practice tr:nth-child(even){
-    background-color: rgb(212, 16, 230);
+    background-color: rgba(212, 16, 230, 0.711);
 } 
 #practice tr:nth-child(odd){
-    background-color: rgb(255, 0, 247);
+    background-color: rgb(255, 5, 247);
 }
 #practice tr:hover{
     background-color: rgb(0, 255, 13);
@@ -185,9 +219,8 @@ img.left{
     margin: 10px 20px 10px 0;
     padding: 10px;
 }
-
 .container{
-    background: rgb(2, 1, 1);
+    background: rgb(205, 67, 67);
     max-width: 980px;
     width: 80vw;
     margin: 20px auto;
