@@ -49,13 +49,12 @@ header.primary nav a:hover{
  
 }
 #intro p{
-    color: rgb(0, 74, 211);
+    color: rgb(0, 0, 0);
     font-size: 20px;
-    padding: 10px;  
+    padding: 10px;
 }
 #content{
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     gap: 22px;
     max-width: 980px;
@@ -123,7 +122,7 @@ img{
 }
 
 aside [role="complementary"]{
-    background: rgb(249, 91, 91);
+    background: rgb(251, 53, 53);
     box-shadow: #000000 5px 5px 5px;
     padding: 10px;
     font-size: 20px;
@@ -150,7 +149,8 @@ aside .container{
     text-align: center;
 }
 #practice{
-    background: rgb(255, 255, 255);
+    background-image: url(../img/banana-1.png);
+    background-size: 100px;
     padding: 10px;
     font-size: 20px;
     max-width: 980px;
@@ -161,7 +161,7 @@ aside .container{
     text-align: center;
     font-size: 30px;
     font-family: 'arial', Courier, monospace, sans-serif;
-   color: rgb(210, 37, 37);
+   color: rgb(234, 56, 56);
 }
 #colophon{
     text-align: center;
@@ -186,7 +186,7 @@ aside .container{
 #practice th{
     padding: 20px;
     color: rgb(251, 251, 251);
-    background-color:rgb(163, 19, 215);
+    background-color:rgb(203, 60, 255);
 }
 #practice td{
     border: 1px solid rgb(60, 255, 0);
@@ -205,6 +205,45 @@ aside .container{
 #practice td:nth-child(1n+2){
     text-align: right;
 }
+#practice ol{
+    list-style-type: lower-alpha;
+    padding-left: 30px;
+    margin-left: 20px;
+}
+#practice ul ul{
+    color: red;
+    list-style-type: square;
+    padding-left: 30px;
+}
+#practice dt{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+#practice dd{
+    margin-left: 0px;
+}
+#practice dd + dt{
+    margin-top: 30px; 
+}
+#practice blockquote{
+    margin-left: 20px;
+    padding-left: 10px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+#practice h4{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'arial', Courier, monospace, sans-serif;
+   color: rgb(0, 0, 0);
+}
+#practice blockquote cite{
+    display: block;
+    font-size: 15px;
+    text-align: right;
+    margin: 10px 20px 0 0;
+}
 
 /* Utility Classes */
 img.right{
@@ -220,7 +259,7 @@ img.left{
     padding: 10px;
 }
 .container{
-    background: rgb(205, 67, 67);
+    background: #D98F4E;
     max-width: 980px;
     width: 80vw;
     margin: 20px auto;
