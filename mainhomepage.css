@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-align: center;
+}
+h2{          
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+    text-align: left;
+}
+ul{
+    display: block;
+    color: white;
+    font-size: 25px;
+    margin: 20px 30px 10px 50px;
+}
+a {
+    color: rgb(0, 150, 255);
+}
+a:hover {
+    color: rgb(255, 100, 0);
+}
+img{    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}   
