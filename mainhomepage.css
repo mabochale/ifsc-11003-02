@@ -23,6 +23,12 @@ a {
 a:hover {
     color: rgb(255, 100, 0);
 }
+h2{
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}
 img{    
     display: block;
     margin-left: auto;
