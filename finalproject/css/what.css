@@ -4,14 +4,22 @@ body{
     margin: 0;
   padding: 0;
 } 
-h1{
-    color: rgb(250, 52, 52);
-    font-size: 20px;
+ h1{
+    color: rgb(220, 56, 56);
+    font-size: 50px;
     text-align: center;
     text-decoration: none;
 }
+#container h2{
+    font-size: 60px
+}
+#content h1{
+    color: #ffffff;
+    margin: auto;
+    padding: 10%;
+}
 #aside div{
-    color: #FFFFFF;
+    color: #cc0b0b;
 }
 header.primary{
   font-size: 3px;
@@ -19,8 +27,8 @@ header.primary{
   color: #db0000;
   text-shadow: 2px 2px 4px #000000;
   font-family: papyrus;
-  margin: 0;
-  padding: 0;
+  margin-top: 0%;
+  padding: 1%;
   width: 100%; 
 }
 header.primary nav a{
@@ -37,7 +45,6 @@ header.primary nav a{
 header.primary nav ul {
      list-style-type: none;
    flex-direction: row;
-   padding: 0;
     gap: 2px;
     padding-left: 2px;
    justify-content: space-around;
@@ -59,18 +66,14 @@ header.primary nav a:hover {
 #intro p{
     text-align: right;
 }
-.container{
+.container ol {
     text-align: center;
-}
-.container ol{
-    text-align: center
 }
 
 .container img {
-    align-items: right;
-    align-content: center;
-    margin-left: 20px;
-    margin-right: 255px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #intro p {
     font-size: 24px;
@@ -79,14 +82,13 @@ header.primary nav a:hover {
 }
 #intro h2 {
     text-align: center;
-    font-size: 18px;
+    font-size: 36px;
 }
 .container figcaption {
     text-align: center;
     font-size: 24px;
     padding: 20px;
-    text-decoration: underline
-    
+    text-decoration: underline;
 }
 .container p{
     font-size: 30px;
@@ -96,15 +98,39 @@ header.primary nav a:hover {
     color: rgb(255, 255, 255);
     font-size: 10px;
 }
-#content ol{
+#content ol {
     display: flex;
     flex-direction: column;
     list-style-type: none;
     font-size: 50px;
-    padding: 30px
+    padding: 30px;
+} 
+footer{
+    font-size: 3px;
+  background-color: lch(52.43% 93.07 311.4);
+  text-shadow: 2px 2px 4px #000000;
+text-align: center;
+  margin-top: 0%;
+  padding: 1%;
+  width: 100%; 
 }
-#footer{
-    text-align: center;
-    color: #000000;
-    
+footer a{
+    color: #D977ad;
+
+}
+@media screen and (max-width: 600px){
+    img.right {
+        float: right;
+        width: 300px;
+        margin: 10px 0 10px 20px;
+        padding: 10px;
+    }
+    img.left {
+        float: left;
+        width: 300px;
+        margin: 10px 0 10px 20px;
+    }
+    img.center{
+        align-content: center;
+    }
 }
